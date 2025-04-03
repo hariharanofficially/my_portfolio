@@ -3,7 +3,7 @@ class Project {
   final String imageUrl;
   final String description;
   final String? githubRepoLink;
-  final String? previewLink;
+  // final String? previewLink;
   final String? googlePlay;
 
   const Project({
@@ -11,7 +11,7 @@ class Project {
     required this.imageUrl,
     required this.description,
     this.githubRepoLink,
-    this.previewLink,
+    // this.previewLink,
     this.googlePlay,
   });
 }

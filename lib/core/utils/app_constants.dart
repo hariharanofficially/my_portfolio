@@ -30,17 +30,16 @@ abstract class AppConstants {
       imageUrl: 'assets/images/navigo_logo.png',
       description:
           'A Horse Racing Tracking application to display all related Scores and Heartbeat tracking and demo Horse racing scores in all international and local tournaments',
-      githubRepoLink: 'https://github.com/radyhaggag/live_score',
-      previewLink: 'https://youtu.be/HSIosFd6Sys',
+      githubRepoLink: 'https://github.com/hariharanofficially/equineapp',
+      // previewLink: 'https://youtu.be/HSIosFd6Sys',
     ),
     Project(
       name: 'Entitle Guard',
       imageUrl: 'assets/images/entitleguard_logo.png',
       description:
           'A Bills and Warrenty bills application for saving digitally and onces expiry bills and warrenty we will notify and renewed.',
-      githubRepoLink:
-          'https://github.com/radyhaggag/Instagram-Clone-With-Clean-Architecture',
-      previewLink: 'https://youtu.be/MuuVjqrR49g',
+      githubRepoLink: 'https://github.com/hariharanofficially/entitleguard',
+      // previewLink: 'https://youtu.be/MuuVjqrR49g',
     ),
     // Project(
     //   name: 'TikTok Downloader',

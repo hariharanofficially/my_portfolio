@@ -12,22 +12,22 @@ class SocialMediaIcons extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Wrap(
       children: [
-        SocialMediaIconBtn(
-          icon: FontAwesomeIcons.facebook,
-          link: SocialLinks.facebook,
-        ),
-        SocialMediaIconBtn(
-          icon: FontAwesomeIcons.instagram,
-          link: SocialLinks.instagram,
-        ),
+        // SocialMediaIconBtn(
+        //   icon: FontAwesomeIcons.facebook,
+        //   link: SocialLinks.facebook,
+        // ),
+        // SocialMediaIconBtn(
+        //   icon: FontAwesomeIcons.instagram,
+        //   link: SocialLinks.instagram,
+        // ),
         SocialMediaIconBtn(
           icon: FontAwesomeIcons.linkedinIn,
           link: SocialLinks.linkedin,
         ),
-        SocialMediaIconBtn(
-          icon: FontAwesomeIcons.twitter,
-          link: SocialLinks.twitter,
-        ),
+        // SocialMediaIconBtn(
+        //   icon: FontAwesomeIcons.twitter,
+        //   link: SocialLinks.twitter,
+        // ),
       ],
     );
   }

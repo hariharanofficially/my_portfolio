@@ -18,18 +18,19 @@ class ProjectActions extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          if (project.previewLink != null)
-            Expanded(
-              child: CustomButton(
-                label: 'Preview',
-                backgroundColor: AppColors.primaryColor,
-                onPressed: () {
-                  html.window.open(project.previewLink!, '_blank');
-                },
-              ),
-            ),
+          // if (project.previewLink != null)
+          //   Expanded(
+          //     child: CustomButton(
+          //       label: 'Preview',
+          //       backgroundColor: AppColors.primaryColor,
+          //       onPressed: () {
+          //         html.window.open(project.previewLink!, '_blank');
+          //       },
+          //     ),
+          //   ),
           if (project.githubRepoLink != null) ...[
-            if (project.previewLink != null) const SizedBox(width: 18),
+            // if (project.previewLink != null)
+            const SizedBox(width: 18),
             Expanded(
               child: CustomButton(
                 label: 'Github',
@@ -41,7 +42,9 @@ class ProjectActions extends StatelessWidget {
             ),
           ],
           if (project.googlePlay != null) ...[
-            if (project.previewLink != null || project.githubRepoLink != null)
+            if (
+                // project.previewLink != null ||
+                project.githubRepoLink != null)
               const SizedBox(width: 18),
             Expanded(
               child: CustomButton(
@@ -53,9 +56,9 @@ class ProjectActions extends StatelessWidget {
               ),
             ),
           ],
-          if (project.previewLink == null &&
-              project.githubRepoLink == null &&
-              project.googlePlay == null)
+          if (
+              // project.previewLink == null &&
+              project.githubRepoLink == null && project.googlePlay == null)
             Expanded(
               child: CustomButton(
                 label: 'No actions available',
